@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>title</title>
-  </head>
-  <body>
- <h1>Congrautulations to <input style="font-size:30px" type="text" name= "name" placeholder="Ex. Marilyn">
- </h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Banner Generator Project</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script>
+    // custom JS/JQuery
+    $(function() {
+      $('button').click(function() {
+    
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div id="container">
+    Name:<input type="text" id="username" placeholder="Ex. Marilyn"><br> 
+    Favorite color: <input type="text" id="usercolor" placeholder="Ex. Red"><br> 
+    Pick one:<br>
+   <input type="radio" id="description" value="Amazing"> Amazing <br>
+   <input type="radio" id="description" value=" EXTREAMELY Great"> EXTREMELY Great <br>
+   <input type="radio" id="description" value="The BEST"> The BEST <br>
+        <button> Do Your Magic! </button>
+  </div> 
+  
+  <div id = "background">
+    <h1>Congratulations</h1>
+  </div>
+</body>
+
 </html>
