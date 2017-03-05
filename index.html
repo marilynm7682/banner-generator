@@ -12,6 +12,16 @@
     // custom JS/JQuery
     $(function() {
       $('button').click(function() {
+        var userName = $('#userName').val();
+        var description = $('#description').val();
+        var usertype = $('#usertype').val();
+        var usercolor = $('#usercolor').val();
+        $('h1').fadeIn();
+        $('h2').fadeIn();
+        $('h3').html(userName);
+        $('h4').html('for being' + description + ' at')
+        $('h5').html(usertype);
+        $("h1, h2, h3, h4, h5, h6").css('color',usercolor);
     
       });
     });
@@ -20,18 +30,22 @@
 
 <body>
   <div id="container">
-    Name:<input type="text" id="username" placeholder="Ex. Marilyn"><br> 
+    Name:<input type="text" id="userName" placeholder="Ex. Marilyn"><br> 
     Favorite color: <input type="text" id="usercolor" placeholder="Ex. Red"><br> 
     Pick one:<br>
-   <input type="radio" id="description" value="Amazing"> Amazing <br>
+   <input type="radio" id="description" value=" Amazing"> Amazing <br>
    <input type="radio" id="description" value=" EXTREAMELY Great"> EXTREMELY Great <br>
-   <input type="radio" id="description" value="The BEST"> The BEST <br>
+   <input type="radio" id="description" value=" The BEST"> The BEST <br>
    Type of certificate:<input type ="text" id= "usertype" placeholder="Ex. playing baseball"> <br>
         <button> Do Your Magic! </button>
   </div> 
-  
+
   <div id = "background">
     <h1>Congratulations</h1>
+    <h2>to</h2>
+    <h3></h3>
+    <h4></h4>
+    <h5></h5>
   </div>
 </body>
 

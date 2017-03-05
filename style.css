@@ -2,8 +2,32 @@ h1 {
     font-family:  'Rochester','Dancing Script';
     text-align: center;
     font-size: 40px;
-    /*display:none;*/
+    display:none;
     
+}
+h2{
+     font-family:  'Rochester','Dancing Script';
+    text-align: center;
+    font-size: 40px;
+    display:none;
+}
+h3{
+    font-family:  'Rochester','Dancing Script';
+    text-align: center;
+    font-size: 60px;
+    /*display:none;*/
+}
+h4{
+    font-family:  'Rochester','Dancing Script';
+    text-align: center;
+    font-size: 40px;
+    /*display:none;*/
+}
+h5{
+    font-family:  'Rochester','Dancing Script';
+    text-align: center;
+    font-size: 50px;
+    /*display:none;*/
 }
 
  #background {
